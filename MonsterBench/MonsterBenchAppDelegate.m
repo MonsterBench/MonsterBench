@@ -7,12 +7,15 @@
 //
 
 #import "MonsterBenchAppDelegate.h"
+#import <KinveyKit/KinveyKit.h>
 
 @implementation MonsterBenchAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [[KCSClient sharedClient] initializeKinveyServiceForAppKey:@"kid_VPBPYNG5ef"
+                                                 withAppSecret:@"4bdbc03ef9994cad86c6a21ceb47a59e"
+                                                  usingOptions:nil];
     return YES;
 }
 							

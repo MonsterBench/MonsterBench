@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D88F46111640D63F00DF2DBD /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88F46101640D63F00DF2DBD /* KinveyKit.framework */; };
 		D8EDC808163CF2860010AD3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC807163CF2860010AD3D /* UIKit.framework */; };
 		D8EDC80A163CF2860010AD3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC809163CF2860010AD3D /* Foundation.framework */; };
 		D8EDC80C163CF2860010AD3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC80B163CF2860010AD3D /* CoreGraphics.framework */; };
@@ -14,10 +15,27 @@
 		D8EDC814163CF2860010AD3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EDC813163CF2860010AD3D /* main.m */; };
 		D8EDC818163CF2860010AD3D /* MonsterBenchAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EDC817163CF2860010AD3D /* MonsterBenchAppDelegate.m */; };
 		D8EDC81B163CF2860010AD3D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8EDC819163CF2860010AD3D /* MainStoryboard.storyboard */; };
-		D8EDC81E163CF2860010AD3D /* MonsterBenchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EDC81D163CF2860010AD3D /* MonsterBenchViewController.m */; };
+		D8EDC81E163CF2860010AD3D /* MonsterBenchVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EDC81D163CF2860010AD3D /* MonsterBenchVideoViewController.m */; };
+		D8EDC831163CF6260010AD3D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC826163CF6250010AD3D /* Accounts.framework */; };
+		D8EDC832163CF6260010AD3D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC827163CF6250010AD3D /* CFNetwork.framework */; };
+		D8EDC833163CF6260010AD3D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC828163CF6250010AD3D /* CoreLocation.framework */; };
+		D8EDC834163CF6260010AD3D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC829163CF6250010AD3D /* CoreTelephony.framework */; };
+		D8EDC835163CF6260010AD3D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82A163CF6250010AD3D /* libsqlite3.dylib */; };
+		D8EDC836163CF6260010AD3D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82B163CF6250010AD3D /* libz.dylib */; };
+		D8EDC837163CF6260010AD3D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82C163CF6250010AD3D /* MobileCoreServices.framework */; };
+		D8EDC838163CF6260010AD3D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82D163CF6250010AD3D /* Security.framework */; };
+		D8EDC839163CF6260010AD3D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82E163CF6250010AD3D /* StoreKit.framework */; };
+		D8EDC83A163CF6260010AD3D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC82F163CF6250010AD3D /* SystemConfiguration.framework */; };
+		D8EDC83B163CF6260010AD3D /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC830163CF6250010AD3D /* Twitter.framework */; };
+		D8EDC83D163CF6CB0010AD3D /* libUAirship-1.3.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC83C163CF6CB0010AD3D /* libUAirship-1.3.3.a */; };
+		D8EDC83F163D02CD0010AD3D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC83E163D02CD0010AD3D /* MediaPlayer.framework */; };
+		D8EDC844163E31F40010AD3D /* tips_tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EDC841163E31F40010AD3D /* tips_tabbar.png */; };
+		D8EDC845163E31F40010AD3D /* results_tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EDC842163E31F40010AD3D /* results_tabbar.png */; };
+		D8EDC846163E31F40010AD3D /* log_tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D8EDC843163E31F40010AD3D /* log_tabbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D88F46101640D63F00DF2DBD /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
 		D8EDC803163CF2860010AD3D /* MonsterBench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterBench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EDC807163CF2860010AD3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8EDC809163CF2860010AD3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -29,8 +47,24 @@
 		D8EDC816163CF2860010AD3D /* MonsterBenchAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonsterBenchAppDelegate.h; sourceTree = "<group>"; };
 		D8EDC817163CF2860010AD3D /* MonsterBenchAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterBenchAppDelegate.m; sourceTree = "<group>"; };
 		D8EDC81A163CF2860010AD3D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D8EDC81C163CF2860010AD3D /* MonsterBenchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonsterBenchViewController.h; sourceTree = "<group>"; };
-		D8EDC81D163CF2860010AD3D /* MonsterBenchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterBenchViewController.m; sourceTree = "<group>"; };
+		D8EDC81C163CF2860010AD3D /* MonsterBenchVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonsterBenchVideoViewController.h; sourceTree = "<group>"; };
+		D8EDC81D163CF2860010AD3D /* MonsterBenchVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonsterBenchVideoViewController.m; sourceTree = "<group>"; };
+		D8EDC826163CF6250010AD3D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		D8EDC827163CF6250010AD3D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D8EDC828163CF6250010AD3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D8EDC829163CF6250010AD3D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D8EDC82A163CF6250010AD3D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D8EDC82B163CF6250010AD3D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D8EDC82C163CF6250010AD3D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D8EDC82D163CF6250010AD3D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D8EDC82E163CF6250010AD3D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D8EDC82F163CF6250010AD3D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D8EDC830163CF6250010AD3D /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		D8EDC83C163CF6CB0010AD3D /* libUAirship-1.3.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUAirship-1.3.3.a"; path = "Airship/libUAirship-1.3.3.a"; sourceTree = "<group>"; };
+		D8EDC83E163D02CD0010AD3D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		D8EDC841163E31F40010AD3D /* tips_tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tips_tabbar.png; sourceTree = "<group>"; };
+		D8EDC842163E31F40010AD3D /* results_tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = results_tabbar.png; sourceTree = "<group>"; };
+		D8EDC843163E31F40010AD3D /* log_tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = log_tabbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +72,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8EDC808163CF2860010AD3D /* UIKit.framework in Frameworks */,
-				D8EDC80A163CF2860010AD3D /* Foundation.framework in Frameworks */,
+				D8EDC83F163D02CD0010AD3D /* MediaPlayer.framework in Frameworks */,
+				D8EDC83D163CF6CB0010AD3D /* libUAirship-1.3.3.a in Frameworks */,
+				D8EDC831163CF6260010AD3D /* Accounts.framework in Frameworks */,
+				D8EDC832163CF6260010AD3D /* CFNetwork.framework in Frameworks */,
+				D8EDC833163CF6260010AD3D /* CoreLocation.framework in Frameworks */,
+				D8EDC834163CF6260010AD3D /* CoreTelephony.framework in Frameworks */,
+				D8EDC835163CF6260010AD3D /* libsqlite3.dylib in Frameworks */,
+				D8EDC836163CF6260010AD3D /* libz.dylib in Frameworks */,
+				D8EDC837163CF6260010AD3D /* MobileCoreServices.framework in Frameworks */,
+				D8EDC838163CF6260010AD3D /* Security.framework in Frameworks */,
+				D8EDC839163CF6260010AD3D /* StoreKit.framework in Frameworks */,
+				D8EDC83A163CF6260010AD3D /* SystemConfiguration.framework in Frameworks */,
+				D8EDC83B163CF6260010AD3D /* Twitter.framework in Frameworks */,
 				D8EDC80C163CF2860010AD3D /* CoreGraphics.framework in Frameworks */,
+				D8EDC80A163CF2860010AD3D /* Foundation.framework in Frameworks */,
+				D8EDC808163CF2860010AD3D /* UIKit.framework in Frameworks */,
+				D88F46111640D63F00DF2DBD /* KinveyKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +98,7 @@
 		D8EDC7F8163CF2860010AD3D = {
 			isa = PBXGroup;
 			children = (
+				D8EDC840163E31C10010AD3D /* Art Work */,
 				D8EDC80D163CF2860010AD3D /* MonsterBench */,
 				D8EDC806163CF2860010AD3D /* Frameworks */,
 				D8EDC804163CF2860010AD3D /* Products */,
@@ -67,6 +116,20 @@
 		D8EDC806163CF2860010AD3D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D88F46101640D63F00DF2DBD /* KinveyKit.framework */,
+				D8EDC83E163D02CD0010AD3D /* MediaPlayer.framework */,
+				D8EDC83C163CF6CB0010AD3D /* libUAirship-1.3.3.a */,
+				D8EDC826163CF6250010AD3D /* Accounts.framework */,
+				D8EDC827163CF6250010AD3D /* CFNetwork.framework */,
+				D8EDC828163CF6250010AD3D /* CoreLocation.framework */,
+				D8EDC829163CF6250010AD3D /* CoreTelephony.framework */,
+				D8EDC82A163CF6250010AD3D /* libsqlite3.dylib */,
+				D8EDC82B163CF6250010AD3D /* libz.dylib */,
+				D8EDC82C163CF6250010AD3D /* MobileCoreServices.framework */,
+				D8EDC82D163CF6250010AD3D /* Security.framework */,
+				D8EDC82E163CF6250010AD3D /* StoreKit.framework */,
+				D8EDC82F163CF6250010AD3D /* SystemConfiguration.framework */,
+				D8EDC830163CF6250010AD3D /* Twitter.framework */,
 				D8EDC807163CF2860010AD3D /* UIKit.framework */,
 				D8EDC809163CF2860010AD3D /* Foundation.framework */,
 				D8EDC80B163CF2860010AD3D /* CoreGraphics.framework */,
@@ -80,8 +143,8 @@
 				D8EDC816163CF2860010AD3D /* MonsterBenchAppDelegate.h */,
 				D8EDC817163CF2860010AD3D /* MonsterBenchAppDelegate.m */,
 				D8EDC819163CF2860010AD3D /* MainStoryboard.storyboard */,
-				D8EDC81C163CF2860010AD3D /* MonsterBenchViewController.h */,
-				D8EDC81D163CF2860010AD3D /* MonsterBenchViewController.m */,
+				D8EDC81C163CF2860010AD3D /* MonsterBenchVideoViewController.h */,
+				D8EDC81D163CF2860010AD3D /* MonsterBenchVideoViewController.m */,
 				D8EDC80E163CF2860010AD3D /* Supporting Files */,
 			);
 			path = MonsterBench;
@@ -96,6 +159,16 @@
 				D8EDC815163CF2860010AD3D /* MonsterBench-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8EDC840163E31C10010AD3D /* Art Work */ = {
+			isa = PBXGroup;
+			children = (
+				D8EDC841163E31F40010AD3D /* tips_tabbar.png */,
+				D8EDC842163E31F40010AD3D /* results_tabbar.png */,
+				D8EDC843163E31F40010AD3D /* log_tabbar.png */,
+			);
+			name = "Art Work";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +225,9 @@
 			files = (
 				D8EDC812163CF2860010AD3D /* InfoPlist.strings in Resources */,
 				D8EDC81B163CF2860010AD3D /* MainStoryboard.storyboard in Resources */,
+				D8EDC844163E31F40010AD3D /* tips_tabbar.png in Resources */,
+				D8EDC845163E31F40010AD3D /* results_tabbar.png in Resources */,
+				D8EDC846163E31F40010AD3D /* log_tabbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +240,7 @@
 			files = (
 				D8EDC814163CF2860010AD3D /* main.m in Sources */,
 				D8EDC818163CF2860010AD3D /* MonsterBenchAppDelegate.m in Sources */,
-				D8EDC81E163CF2860010AD3D /* MonsterBenchViewController.m in Sources */,
+				D8EDC81E163CF2860010AD3D /* MonsterBenchVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,9 +318,19 @@
 		D8EDC822163CF2860010AD3D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonsterBench\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonsterBench/MonsterBench-Prefix.pch";
 				INFOPLIST_FILE = "MonsterBench/MonsterBench-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Airship\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -253,9 +339,19 @@
 		D8EDC823163CF2860010AD3D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/MonsterBench\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MonsterBench/MonsterBench-Prefix.pch";
 				INFOPLIST_FILE = "MonsterBench/MonsterBench-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Airship\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -280,6 +376,7 @@
 				D8EDC823163CF2860010AD3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
