@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D88F46111640D63F00DF2DBD /* KinveyKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88F46101640D63F00DF2DBD /* KinveyKit.framework */; };
+		D8961DD21648BF690004B5FD /* 12_inch_30_cm_wooden_ruler_with.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8961DD11648BF690004B5FD /* 12_inch_30_cm_wooden_ruler_with.jpg */; };
+		D8961DDD1648C50D0004B5FD /* WeightSliderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D8961DDC1648C50D0004B5FD /* WeightSliderScrollView.m */; };
+		D8962A741641C874009166F4 /* MonsterBenchMediaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8962A731641C874009166F4 /* MonsterBenchMediaTableViewController.m */; };
+		D8962A80164211C0009166F4 /* KinveyVideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D8962A7F164211C0009166F4 /* KinveyVideoData.m */; };
+		D8962A8E164251F7009166F4 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = D8962A8D164251F7009166F4 /* profile.png */; };
+		D89CE7971644AF4F0027DB06 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89CE7961644AF4F0027DB06 /* LoginViewController.m */; };
+		D89CE7A01644C56B0027DB06 /* yeti_water_mark.png in Resources */ = {isa = PBXBuildFile; fileRef = D89CE79F1644C56B0027DB06 /* yeti_water_mark.png */; };
 		D8EDC808163CF2860010AD3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC807163CF2860010AD3D /* UIKit.framework */; };
 		D8EDC80A163CF2860010AD3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC809163CF2860010AD3D /* Foundation.framework */; };
 		D8EDC80C163CF2860010AD3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8EDC80B163CF2860010AD3D /* CoreGraphics.framework */; };
@@ -36,6 +43,17 @@
 
 /* Begin PBXFileReference section */
 		D88F46101640D63F00DF2DBD /* KinveyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KinveyKit.framework; sourceTree = "<group>"; };
+		D8961DD11648BF690004B5FD /* 12_inch_30_cm_wooden_ruler_with.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 12_inch_30_cm_wooden_ruler_with.jpg; sourceTree = "<group>"; };
+		D8961DDB1648C50D0004B5FD /* WeightSliderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeightSliderScrollView.h; sourceTree = "<group>"; };
+		D8961DDC1648C50D0004B5FD /* WeightSliderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeightSliderScrollView.m; sourceTree = "<group>"; };
+		D8962A721641C874009166F4 /* MonsterBenchMediaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterBenchMediaTableViewController.h; sourceTree = "<group>"; };
+		D8962A731641C874009166F4 /* MonsterBenchMediaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonsterBenchMediaTableViewController.m; sourceTree = "<group>"; };
+		D8962A7E164211C0009166F4 /* KinveyVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KinveyVideoData.h; path = MonsterBench/KinveyVideoData.h; sourceTree = "<group>"; };
+		D8962A7F164211C0009166F4 /* KinveyVideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KinveyVideoData.m; path = MonsterBench/KinveyVideoData.m; sourceTree = "<group>"; };
+		D8962A8D164251F7009166F4 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		D89CE7951644AF4F0027DB06 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		D89CE7961644AF4F0027DB06 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		D89CE79F1644C56B0027DB06 /* yeti_water_mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yeti_water_mark.png; sourceTree = "<group>"; };
 		D8EDC803163CF2860010AD3D /* MonsterBench.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterBench.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8EDC807163CF2860010AD3D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8EDC809163CF2860010AD3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,9 +113,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D8962A821642128A009166F4 /* KinveyCollectionsMapping */ = {
+			isa = PBXGroup;
+			children = (
+				D8962A7E164211C0009166F4 /* KinveyVideoData.h */,
+				D8962A7F164211C0009166F4 /* KinveyVideoData.m */,
+			);
+			name = KinveyCollectionsMapping;
+			sourceTree = "<group>";
+		};
 		D8EDC7F8163CF2860010AD3D = {
 			isa = PBXGroup;
 			children = (
+				D8961DDB1648C50D0004B5FD /* WeightSliderScrollView.h */,
+				D8961DDC1648C50D0004B5FD /* WeightSliderScrollView.m */,
+				D8962A821642128A009166F4 /* KinveyCollectionsMapping */,
 				D8EDC840163E31C10010AD3D /* Art Work */,
 				D8EDC80D163CF2860010AD3D /* MonsterBench */,
 				D8EDC806163CF2860010AD3D /* Frameworks */,
@@ -143,6 +173,10 @@
 				D8EDC816163CF2860010AD3D /* MonsterBenchAppDelegate.h */,
 				D8EDC817163CF2860010AD3D /* MonsterBenchAppDelegate.m */,
 				D8EDC819163CF2860010AD3D /* MainStoryboard.storyboard */,
+				D89CE7951644AF4F0027DB06 /* LoginViewController.h */,
+				D89CE7961644AF4F0027DB06 /* LoginViewController.m */,
+				D8962A721641C874009166F4 /* MonsterBenchMediaTableViewController.h */,
+				D8962A731641C874009166F4 /* MonsterBenchMediaTableViewController.m */,
 				D8EDC81C163CF2860010AD3D /* MonsterBenchVideoViewController.h */,
 				D8EDC81D163CF2860010AD3D /* MonsterBenchVideoViewController.m */,
 				D8EDC80E163CF2860010AD3D /* Supporting Files */,
@@ -164,6 +198,9 @@
 		D8EDC840163E31C10010AD3D /* Art Work */ = {
 			isa = PBXGroup;
 			children = (
+				D8961DD11648BF690004B5FD /* 12_inch_30_cm_wooden_ruler_with.jpg */,
+				D89CE79F1644C56B0027DB06 /* yeti_water_mark.png */,
+				D8962A8D164251F7009166F4 /* profile.png */,
 				D8EDC841163E31F40010AD3D /* tips_tabbar.png */,
 				D8EDC842163E31F40010AD3D /* results_tabbar.png */,
 				D8EDC843163E31F40010AD3D /* log_tabbar.png */,
@@ -228,6 +265,9 @@
 				D8EDC844163E31F40010AD3D /* tips_tabbar.png in Resources */,
 				D8EDC845163E31F40010AD3D /* results_tabbar.png in Resources */,
 				D8EDC846163E31F40010AD3D /* log_tabbar.png in Resources */,
+				D8962A8E164251F7009166F4 /* profile.png in Resources */,
+				D89CE7A01644C56B0027DB06 /* yeti_water_mark.png in Resources */,
+				D8961DD21648BF690004B5FD /* 12_inch_30_cm_wooden_ruler_with.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +281,10 @@
 				D8EDC814163CF2860010AD3D /* main.m in Sources */,
 				D8EDC818163CF2860010AD3D /* MonsterBenchAppDelegate.m in Sources */,
 				D8EDC81E163CF2860010AD3D /* MonsterBenchVideoViewController.m in Sources */,
+				D8962A741641C874009166F4 /* MonsterBenchMediaTableViewController.m in Sources */,
+				D8962A80164211C0009166F4 /* KinveyVideoData.m in Sources */,
+				D89CE7971644AF4F0027DB06 /* LoginViewController.m in Sources */,
+				D8961DDD1648C50D0004B5FD /* WeightSliderScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

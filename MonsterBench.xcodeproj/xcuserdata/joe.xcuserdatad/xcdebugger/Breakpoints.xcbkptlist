@@ -34,38 +34,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MonsterBench/MonsterBenchVideoViewController.m"
-         timestampString = "373230079.548031"
+         timestampString = "373866351.282394"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "30"
-         endingLineNumber = "30"
-         landmarkName = "-resourceServiceDidCompleteWithResult:"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
+         landmarkName = "-viewDidLoad"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "WeightSliderScrollView.m"
+         timestampString = "373993940.572826"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "36"
+         endingLineNumber = "36"
+         landmarkName = "-observeContentOffsetHandler:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "MonsterBench/MonsterBenchVideoViewController.m"
-         timestampString = "373217882.790617"
+         filePath = "WeightSliderScrollView.m"
+         timestampString = "373870850.212255"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "21"
-         endingLineNumber = "21"
-         landmarkName = "-resourceServiceDidFailWithError:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "MonsterBench/MonsterBenchVideoViewController.m"
-         timestampString = "373230079.548031"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "32"
-         endingLineNumber = "32"
-         landmarkName = "-resourceServiceDidCompleteWithResult:"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
+         landmarkName = "-observeContentOffsetHandler:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

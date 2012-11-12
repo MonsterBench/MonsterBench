@@ -17,37 +17,19 @@
 @implementation MonsterBenchVideoViewController
 
 @synthesize streamPlayer = _streamPlayer;
+@synthesize objectname = _objectname;
 
--(void)resourceServiceDidFailWithError:(NSError *)error
-{
-    //needs error handling ...
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Video Unavailable" message:@" Please Try Again Later" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
-                         
-    [alert show];
-}
 
-- (void)resourceServiceDidCompleteWithResult: (KCSResourceResponse *)result
-{
-     _streamPlayer = [[MPMoviePlayerController alloc] initWithContentURL:result];
-}
+#pragma mark - view methods
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    [KCSResourceService getStreamingURLForResource:@"heli_flyover.mov"withResourceDelegate:self];
+    [KCSResourceService getStreamingURLForResource:self.objectname withResourceDelegate:self];
     
-    [_streamPlayer setMovieSourceType:MPMovieSourceTypeStreaming];
-    
-    [self.streamPlayer.view setFrame: self.view.bounds ];
-    
-    self.streamPlayer.controlStyle = MPMovieControlStyleEmbedded;
-    
-    [self.view addSubview: self.streamPlayer.view];
-    
-    [self.streamPlayer play];
 }
+
 - (void)viewDidUnload
 {
     [super viewDidUnload];
@@ -57,6 +39,34 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     return YES;
+}
+
+#pragma mark - KCSCollection Delegate Results 
+
+-(void)resourceServiceDidFailWithError:(NSError *)error
+{
+    //error handling ...
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Video Unavailable" message:@" Please Try Again Later" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    
+    [alert show];
+}
+
+- (void)resourceServiceDidCompleteWithResult: (KCSResourceResponse *)result
+{
+    NSURL *stream = [NSURL URLWithString:[result streamingURL]];
+    
+    _streamPlayer = [[MPMoviePlayerController alloc] initWithContentURL:stream];
+    
+    
+    [self.streamPlayer.view setFrame: self.view.bounds ];
+    
+    self.streamPlayer.controlStyle = MPMovieControlStyleEmbedded;
+    
+    [self.view addSubview: self.streamPlayer.view];
+    
+    [self.streamPlayer play];
+    
 }
 
 @end

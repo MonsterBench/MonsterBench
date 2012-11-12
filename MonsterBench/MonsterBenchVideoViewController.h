@@ -11,4 +11,6 @@
 
 @interface MonsterBenchVideoViewController : UIViewController <KCSResourceDelegate>
 
+@property (nonatomic, strong) NSString *objectname;
+
 @end
